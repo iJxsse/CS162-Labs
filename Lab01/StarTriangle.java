@@ -6,6 +6,8 @@ public class StarTriangle {
 
         Scanner scan = new Scanner(System.in);
         int rows = scan.nextInt();
+        scan.close();
+        
         printStarTriangle(rows);
     }
 
